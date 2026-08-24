@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cartão do formulário */
+.container {
+    width: 400px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Campos de texto e lista */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+/* Efeito quando o campo está selecionado */
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #2563eb;
+
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.25);
+}
+
+/* Texto "Gênero" */
+.titulo-secao {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Grupo dos radio buttons */
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Cada opção de gênero */
+.radio-group div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Radio buttons */
+.radio-group input {
+    width: auto;
+    margin: 0;
+}
+
+/* Labels dos radio buttons */
+.radio-group label {
+    font-weight: normal;
+}
+
+/* Área dos termos */
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 20px;
+}
+
+/* Checkbox */
+.termos input {
+    width: auto;
+    margin: 0;
+}
+
+/* Label do checkbox */
+.termos label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #1d4ed8;
+    opacity: 0.9;
+
+    transform: translateY(-1px);
+}
+
+/* Efeito ao clicar no botão */
+button:active {
+    transform: translateY(0);
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 500px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
