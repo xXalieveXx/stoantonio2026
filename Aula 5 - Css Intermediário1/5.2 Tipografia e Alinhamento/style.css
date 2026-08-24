@@ -1,0 +1,30 @@
+/* 7. Família de Fontes: Altera a fonte de todo o documento para sem serifa */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 6. Tamanho da Fonte: Altera para 24px */
+.texto-grande {
+    font-size: 24px;
+}
+
+/* 8. Peso e Estilo: Negrito e Itálico */
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+/* 9. Alinhamento: Centraliza o título */
+.titulo-centralizado {
+    text-align: center;
+}
+
+/* 10. Decoração de Texto: Remove o sublinhado padrão do link */
+.link-sem-sublinhado {
+    text-decoration: none;
+    color: blue;
+}

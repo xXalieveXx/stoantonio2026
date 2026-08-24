@@ -1,0 +1,38 @@
+/* 1. Criação do Vínculo: Cor de fundo suave no body */
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 2. Cores de Texto: h1 em azul e p em cinza escuro */
+h1 {
+    color: blue;
+}
+
+p {
+    color: #333333;
+}
+
+/* 3. Seletores de Classe: Apenas o elemento .destaque em vermelho */
+.destaque {
+    color: red;
+}
+
+/* 4. Seletores de ID: Cor de fundo específica para #principal */
+#principal {
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* 5. Cores Hexadecimais (#f0f0f0) e RGB (rgb(0, 128, 0)) */
+.caixa-colorida {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.texto-rgb {
+    color: rgb(0, 128, 0);
+}
