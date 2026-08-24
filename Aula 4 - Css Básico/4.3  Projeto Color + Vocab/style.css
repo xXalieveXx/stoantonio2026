@@ -1,0 +1,26 @@
+/* Define o tamanho exato exigido para todas as imagens */
+img {
+    height: 200px;
+    width: 200px;
+}
+
+/* Cores dos títulos de cada cor em espanhol */
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.anaranjado {
+    color: orange;
+}
+
+.verde {
+    color: green;
+}
+
+.amarillo {
+    color: yellow;
+}

@@ -1,0 +1,25 @@
+/* 5. Seletor Universal (aplica a cor preta padrão e centraliza tudo) */
+* {
+    color: black;
+    text-align: center;
+}
+
+/* 1. Seletor de Elemento (torna apenas o primeiro li vermelho) */
+li:first-child {
+    color: red;
+}
+
+/* 2. Seletor de Classe (o estilo padrão já é preto) */
+.classe-exemplo {
+    color: black;
+}
+
+/* 3. Seletor de ID (verde) */
+#id-exemplo {
+    color: green;
+}
+
+/* 4. Seletor de Atributo (azul) */
+li[data-tipo="atributo"] {
+    color: blue;
+}
